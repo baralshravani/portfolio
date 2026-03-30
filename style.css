@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 80px 50px;
+}
+
+/* Projects */
+.projects .card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+}
